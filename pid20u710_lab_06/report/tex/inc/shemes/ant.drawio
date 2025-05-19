@@ -1,0 +1,314 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9" pages="2">
+  <diagram name="Страница — 1" id="oyloH6E_23iQrphGHKIS">
+    <mxGraphModel dx="891" dy="1264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;startFill=0;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-1" target="s8yT8wu4nLf53Ga8B4MI-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-1" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-2" target="s8yT8wu4nLf53Ga8B4MI-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-2" value="Создание пустого массива bestWay" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-3" target="s8yT8wu4nLf53Ga8B4MI-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-3" value="Инициализация minDistance бесконечно большим значением" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="290" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-30" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-4" target="s8yT8wu4nLf53Ga8B4MI-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-37" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=classic;startArrow=none;endFill=1;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-4" target="s8yT8wu4nLf53Ga8B4MI-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="381" />
+              <mxPoint x="480" y="731" />
+              <mxPoint x="360" y="731" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-38" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="s8yT8wu4nLf53Ga8B4MI-37" vertex="1" connectable="0">
+          <mxGeometry x="-0.9585" y="1" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-4" value="len(visited[ant]) =&lt;div&gt;&amp;nbsp;cities?&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="280" y="341" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-18" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-5" target="s8yT8wu4nLf53Ga8B4MI-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-5" value="Цикл по day от 0 до&amp;nbsp;&lt;div&gt;days - 1&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="540" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-6" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="520" y="991" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-7" target="s8yT8wu4nLf53Ga8B4MI-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-7" value="Вычислить значение q" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="220" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-11" target="s8yT8wu4nLf53Ga8B4MI-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-11" value="Расчет матрицы привлекательности путей для муравьев (visability)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-12" value="Расчет матрицы феромонов (pheromones)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="470" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-16" target="s8yT8wu4nLf53Ga8B4MI-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-16" value="antsCount = len(matrix)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="620" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-12" target="s8yT8wu4nLf53Ga8B4MI-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-19" target="s8yT8wu4nLf53Ga8B4MI-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-19" value="Создание матрицы visited, хранящей путь каждого муравья" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="690" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-24" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-21" target="s8yT8wu4nLf53Ga8B4MI-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-21" value="Инициализация стартовой вершины каждого муравья" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="770" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-23" value="А" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="105" y="850" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-25" value="А" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="345" y="200" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-26" value="Цикл по ant от 0 до&amp;nbsp;&lt;div&gt;antsCount - 1&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="280" y="261" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-27" target="s8yT8wu4nLf53Ga8B4MI-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-27" value="Найти вероятность перехода муравья в каждую из вершин&amp;nbsp;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="451" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-34" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-28" target="s8yT8wu4nLf53Ga8B4MI-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-28" value="Случайным образом определить следующий город для перехода" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="541" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-29" value="Добавить выбранный город к посещенным городам (visited[ant]) для данного муравья" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="631" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-32" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-26" target="s8yT8wu4nLf53Ga8B4MI-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-35" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=classic;endFill=1;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="331" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="711" />
+              <mxPoint x="240" y="711" />
+              <mxPoint x="240" y="331" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-40" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-36" target="s8yT8wu4nLf53Ga8B4MI-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-36" value="Рассчитать длину пройденного пути (curDistance) муравья ant" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="751" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-39" value="Б" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="345" y="841" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-41" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-25" target="s8yT8wu4nLf53Ga8B4MI-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-42" value="Б" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="585" y="200" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-46" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-43" target="s8yT8wu4nLf53Ga8B4MI-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-48" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="s8yT8wu4nLf53Ga8B4MI-46" vertex="1" connectable="0">
+          <mxGeometry x="-0.4615" y="-1" relative="1" as="geometry">
+            <mxPoint x="16" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-55" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=classic;endFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-43" target="s8yT8wu4nLf53Ga8B4MI-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="301" />
+              <mxPoint x="700" y="500" />
+              <mxPoint x="600" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-43" value="curDistance &amp;lt; minDistance" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="520" y="261" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-47" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-44" target="s8yT8wu4nLf53Ga8B4MI-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-44" value="minDistance = curDistance" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="371" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-45" value="bestPath = visited[ant]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="441" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-49" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-42" target="s8yT8wu4nLf53Ga8B4MI-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-50" value="Конец цикла по ant" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="520" y="520" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-51" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-45" target="s8yT8wu4nLf53Ga8B4MI-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-58" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-52" target="s8yT8wu4nLf53Ga8B4MI-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-52" value="Цикл по путям элитных муравьев" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="520" y="601" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-59" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-53" target="s8yT8wu4nLf53Ga8B4MI-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-53" value="Обновить список феромонов для элитных муравьев" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="676" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-60" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-54" target="s8yT8wu4nLf53Ga8B4MI-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-54" value="Конец цикла по путям элитных муравьев" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="520" y="741" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-56" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-50" target="s8yT8wu4nLf53Ga8B4MI-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-57" value="Обновить значение феромонов остальных муравьев" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="821" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-63" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-61" target="s8yT8wu4nLf53Ga8B4MI-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-61" value="Конец цикла по day" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="520" y="911" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-62" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-57" target="s8yT8wu4nLf53Ga8B4MI-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-64" value="&lt;div&gt;&lt;b&gt;Параметры:&lt;/b&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;matrix - матрица расстояний между городами&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;alpha, beta - параметр расчета следующего города&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;days - число дней&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;evop - коэффициент испарения&lt;/span&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;b&gt;Возвращаемые значения:&lt;/b&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;minDistance - кратчайшая длина пути&lt;/div&gt;&lt;div&gt;bestPath - порядок обхода городов&lt;/div&gt;&lt;/blockquote&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="230" y="45" width="50" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="s8yT8wu4nLf53Ga8B4MI-65" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;dashed=1;" parent="1" source="s8yT8wu4nLf53Ga8B4MI-1" target="s8yT8wu4nLf53Ga8B4MI-64" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="k4bDFtOXloJ7nAOyZYv2" name="Страница — 2">
+    <mxGraphModel dx="754" dy="1069" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PK6Gh2ZocyT-p3qhKA5K-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="PK6Gh2ZocyT-p3qhKA5K-2" target="PK6Gh2ZocyT-p3qhKA5K-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PK6Gh2ZocyT-p3qhKA5K-2" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PK6Gh2ZocyT-p3qhKA5K-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="PK6Gh2ZocyT-p3qhKA5K-4" target="PK6Gh2ZocyT-p3qhKA5K-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PK6Gh2ZocyT-p3qhKA5K-4" value="Расчет всех возможных перестановок городов и их сохранение в массив combinations" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PK6Gh2ZocyT-p3qhKA5K-15" value="Создание пустого массива bestPath" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="341" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PK6Gh2ZocyT-p3qhKA5K-62" value="&lt;div&gt;&lt;b&gt;Параметры:&lt;/b&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;matrix - матрица расстояний между городами&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;b&gt;Возвращаемые значения:&lt;/b&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;minDistance - кратчайшая длина пути&lt;/div&gt;&lt;div&gt;bestPath - порядок обхода городов&lt;/div&gt;&lt;/blockquote&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="230" y="45" width="50" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PK6Gh2ZocyT-p3qhKA5K-63" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;dashed=1;" edge="1" parent="1" source="PK6Gh2ZocyT-p3qhKA5K-2" target="PK6Gh2ZocyT-p3qhKA5K-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PK6Gh2ZocyT-p3qhKA5K-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="PK6Gh2ZocyT-p3qhKA5K-64" target="PK6Gh2ZocyT-p3qhKA5K-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PK6Gh2ZocyT-p3qhKA5K-64" value="Инициализация minDistance бесконечно большим значением" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="251" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fMh0z9GcR2gvIbB7SDm5-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" edge="1" parent="1" source="PK6Gh2ZocyT-p3qhKA5K-68" target="PK6Gh2ZocyT-p3qhKA5K-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PK6Gh2ZocyT-p3qhKA5K-68" value="Цикл по i от 0 до len(combinations) - 1 с шагом 1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="411" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PK6Gh2ZocyT-p3qhKA5K-69" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" edge="1" parent="1" source="PK6Gh2ZocyT-p3qhKA5K-15" target="PK6Gh2ZocyT-p3qhKA5K-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PK6Gh2ZocyT-p3qhKA5K-70" value="Рассчитать длину пути (curDistance) по маршруту combinations[i]" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fMh0z9GcR2gvIbB7SDm5-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" edge="1" parent="1" source="fMh0z9GcR2gvIbB7SDm5-4" target="fMh0z9GcR2gvIbB7SDm5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fMh0z9GcR2gvIbB7SDm5-2" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="fMh0z9GcR2gvIbB7SDm5-1">
+          <mxGeometry x="-0.4615" y="-1" relative="1" as="geometry">
+            <mxPoint x="16" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMh0z9GcR2gvIbB7SDm5-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="fMh0z9GcR2gvIbB7SDm5-4" target="fMh0z9GcR2gvIbB7SDm5-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="620" />
+              <mxPoint x="220" y="820" />
+              <mxPoint x="120" y="820" />
+            </Array>
+            <mxPoint x="120" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMh0z9GcR2gvIbB7SDm5-4" value="curDistance &amp;lt; minDistance" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="580" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fMh0z9GcR2gvIbB7SDm5-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" edge="1" parent="1" source="fMh0z9GcR2gvIbB7SDm5-6" target="fMh0z9GcR2gvIbB7SDm5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fMh0z9GcR2gvIbB7SDm5-6" value="minDistance = curDistance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="690" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fMh0z9GcR2gvIbB7SDm5-7" value="bestPath = combinations[i]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fMh0z9GcR2gvIbB7SDm5-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" edge="1" parent="1" source="fMh0z9GcR2gvIbB7SDm5-8" target="fMh0z9GcR2gvIbB7SDm5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fMh0z9GcR2gvIbB7SDm5-8" value="Конец цикла по i" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="40" y="841" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fMh0z9GcR2gvIbB7SDm5-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" edge="1" parent="1" source="fMh0z9GcR2gvIbB7SDm5-7" target="fMh0z9GcR2gvIbB7SDm5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fMh0z9GcR2gvIbB7SDm5-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;" edge="1" parent="1" source="PK6Gh2ZocyT-p3qhKA5K-70" target="fMh0z9GcR2gvIbB7SDm5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fMh0z9GcR2gvIbB7SDm5-12" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="40" y="916" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,43 @@
+\documentclass{bmstu}
+
+\setlist[itemize]{label=---}
+\setlist[enumerate]{label=\arabic*)}
+
+\usepackage{dcolumn}
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+
+\renewcommand\labelitemi{--}
+\usepackage[T1]{fontenc}
+
+\usepackage{threeparttable}
+\usepackage{diagbox}
+\usepackage{longtable}
+
+
+\bibliography{biblio}
+
+\begin{document}
+	
+	\makereporttitle{Информатика и системы управления}
+	{Программное обеспечение ЭВМ и информационные технологии}
+	{лабораторной работе №6}
+	{Анализ Алгоритмов}
+	{Методы решения задачи коммивояжёра}
+	{}
+	{Половинкин~И.~Д./ИУ7-55Б}
+	{Волкова~Л.~Л.}
+	
+	\maketableofcontents
+	
+	\include{10-intro}
+	\include{20-analysis}
+	\include{30-design}
+	\include{40-implementation}
+	\include{50-research}
+	\include{60-conclusion}
+	
+	\makebibliography
+
+	\include{70-appendix}
+	
+\end{document}
