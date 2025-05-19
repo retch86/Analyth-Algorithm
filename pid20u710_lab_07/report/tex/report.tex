@@ -1,0 +1,39 @@
+\documentclass{bmstu}
+
+\setlist[itemize]{label=---}
+\setlist[enumerate]{label=\arabic*)}
+
+\usepackage{dcolumn}
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+
+\bibliography{biblio}
+
+\usepackage{threeparttable}
+
+\begin{document}
+	
+	\makereporttitle{Информатика и системы управления}
+	{Программное обеспечение ЭВМ и информационные технологии}
+	{лабораторной работе №7}
+	{Анализ Алгоритмов}
+	{Графовые модели}
+	{}
+	{Половинкин~И.~Д./ИУ7-55Б}
+	{Волкова~Л.~Л.}
+	
+	\maketableofcontents
+	
+	\include{10-intro}
+	\include{20-iodata}
+	\include{30-convert}
+	\include{40-examples}
+	\include{50-test}
+	\include{60-research}
+	\include{70-conclusion}
+	
+	\makebibliography
+	
+\end{document}
